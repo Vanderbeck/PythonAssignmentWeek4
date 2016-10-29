@@ -35,17 +35,3 @@ while(iters<target_count):
 
 
     print 'Name No.', target_pos, ': ', name, '\n'
-
-
-# html = urllib.urlopen(new_url).read()
-# soup = BeautifulSoup(html)
-# tags = soup('a')
-# count = int(0)
-#
-# for tag in tags:
-#     count = count+1
-#     print count
-#     print 'TAG:',tag
-#     print 'URL:',tag.get('href', None)
-#     print 'Contents:',tag.contents[0]
-#     print 'Attrs:',tag.attrs
